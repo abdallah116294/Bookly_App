@@ -11,7 +11,9 @@ class SplashScreenBody extends StatelessWidget {
       mainAxisAlignment: MainAxisAlignment.center,
       crossAxisAlignment: CrossAxisAlignment.stretch,
       children: [
-        Image.asset(AssetsData.logo,)
+        Image.asset(AssetsData.logo,),
+        const SizedBox(height: 6,),
+       const  Text('Read Free Books ',textAlign: TextAlign.center,)
       ],
     );
   }
